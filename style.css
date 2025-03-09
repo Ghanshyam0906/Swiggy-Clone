@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.first{
+    height: 75vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.left{
+    width:55% ;
+    height: 100%;
+    background-color: white;
+  
+}
+.left nav{
+    display: flex;
+    height: 185px;
+    width: 100%;
+ 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.log{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 300px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.left img{
+   
+    margin:15px 0px 0px 135px;
+}
+.login{
+    margin-right: 30px;
+    background-color: #fff;
+    border: none;
+    font-weight:bold ;
+}
+.signup{
+    height: 45px;
+    width: 100px;
+    background-color: black;
+    color: white;
+   font-weight: bold;
+   border: none;
+}
+.left h1{
+    margin-left: 135px;
+    display: block;
+   
+}
+.left h3{
+    margin-left: 135px;
+    display: block;
+  
+    color: #686b78;
+    line-height: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.left input{
+    height: 60px;
+    width:512px;
+    margin-top: 25px;
+    margin-left:135px ;
+    border: 1px solid orange;
+    padding-left:15px ;
+}
+.find_food{
+    height:60px;
+    width: 100px;
+    background-color:darkorange;
+    border: none;
+    color: whitesmoke;
+    font-weight: 800;
+}
+::placeholder{
+    color:#686b78 ;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.heading3{
+    margin-left: 135px;
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.left p{
+    margin-top: 15px;
+    margin-left: 135px;
+    text-decoration: none;
+    word-spacing: 4px;
+    line-height: 25px;
+}
+.left a{
+    text-decoration: none;
+    color: #686b78;
+}
+.right{
+    width: 45%;
+    height: 100%;
+    background-image: url("swiggy_main.jpg");
+    background-size: cover;
+}
+.second{
+    height: 50vh;
+    width: 100%;
+    background-color: #2b1e16;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.one{
+    height: 85%;
+    width: 20%;
+    justify-content: center;
+    color: white;
+    font-weight:500 ;
+    align-content: center;
+    text-align: center;
+}
+.one img{
+    margin-left: 5%;
+}
+.one h2{
+    margin-top: 10px;
+}
+.one p{
+    margin-top: 10px;
+    font-size: small;
+    color: #dbdce2;
+}
+.third{
+    display:flex;
+    height: 85vh;
+    width: 100%;
+    border: 1px solid black;
+}
+.fa-brandsfa-youtube{
+    background-color: #2b1e16;
+}
+.download{
+    height: 60%;
+    width:30%;
+    margin: 135px 0px 0px 135px;
+}
+.download h2{
+    word-spacing: 10px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.download p{
+    margin-top: 25px;
+    color: #717278;
+    font-size: 18px;
+}
+.download img{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.mobile{
+    height: 80%;
+    width: 25%;
+    margin-left: 55px;
+    background-image: url("mobile.webp");
+    background-size: cover;
+}
+.ios{
+    height: 80%;
+    width: 25%;
+    margin-top: 123px;
+    margin-left: 5px;
+    background-image: url("iPhone.webp");
+    background-size: cover;
+
+}
